@@ -1,7 +1,9 @@
 
-<input  #inputElementRef
-        [value]="title" 
-        (keyup.enter)="submitValue($event.target.value)">
-<button (click)="submitValue(inputElementRef.value)">
-  Save
-</button>
+<div class="pl4">
+  <input  #inputElementRef
+          [value]="title" 
+          (keyup.enter)="submitValue($event.target.value)">
+  <button (click)="submitValue(inputElementRef.value)">
+    Save
+  </button>
+</div>
