@@ -2,6 +2,8 @@
 
 A [tutorial](https://ng-girls.gitbook.io/todo-list-tutorial/) conducted at the ngGirls AngularConnect workshop.
 
+Their finished example is hosted on [stackblitz](https://stackblitz.com/github/angularbootcamp/todo-list-tutorial-steps/tree/step-18_Adding_a_checkbox?file=src%2Fapp%2Fitem%2Fitem.component.ts).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
 
 ## Development server
