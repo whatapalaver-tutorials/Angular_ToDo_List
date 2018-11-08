@@ -1,6 +1,6 @@
 <app-input-button-unit (submit)="addItem($event)"></app-input-button-unit>
-<ul class="">
-  <li class="pv2" *ngFor="let todoItem of todoList">
+<ul class="pv3">
+  <li class="pa4 dark-green ba bl-0 bt-0 br-0 b--dotted mw9" *ngFor="let todoItem of todoList">
     <app-todo-item [item]="todoItem"
                    (remove)="removeItem($event)">
     </app-todo-item>

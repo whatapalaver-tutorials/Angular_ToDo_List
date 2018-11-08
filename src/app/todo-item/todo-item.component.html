@@ -1,10 +1,7 @@
-<div class="dark-green mb2 ba bl-0 bt-0 br-0 b--dotted"> 
-  {{ item.title }}
-  <div class="tr">
-    <button class="f6 link dim br2 ph3 pv2 mb2 dib white bg-gold" (click)="removeItem()">
-      remove
-    </button>
-  </div>
-  
-</div>
+<div class="fl w-10"><input type="checkbox"/></div>
+<div class="fl w-70">{{ item.title }}</div>
+<button class="fl w-10 f6 link dim br2 white bg-gold" (click)="removeItem()">
+  remove
+</button>
+
 
