@@ -1,2 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-@import "../node_modules/tachyons/css/tachyons.min.css"
+@import "../node_modules/tachyons/css/tachyons.min.css";
+
+/* Custom Blue Colour */
+.neon-blue { color: #4e4bec; }
+.bg-neon-blue { background-color: #4e4bec; }
+.b--neon-blue { border-color: #4e4bec; }
+
+.hover-neon-blue:hover,
+.hover-neon-blue:focus { color: #4e4bec; }
+
+.hover-bg-neon-blue:hover,
+.hover-bg-neon-blue:focus { background-color: #4e4bec; }
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}

@@ -1,9 +1,12 @@
 
 <div class="pl4">
-  <input  #inputElementRef
+  <input  class="input-reset dark-green ba bg-washed-blue br2 b--dark-pink pa1 mb2 mr2 w-50"
+          #inputElementRef
           [value]="title" 
           (keyup.enter)="submitValue($event.target.value)">
-  <button (click)="submitValue(inputElementRef.value)">
+  <button class="f6 link dim br2 ph3 pv2 mb2 dib white bg-neon-blue"
+          (click)="submitValue(inputElementRef.value)">
     Save
   </button>
 </div>
+
