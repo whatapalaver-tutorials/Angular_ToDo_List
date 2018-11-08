@@ -1,5 +1,10 @@
-<div class="fl w-10"><input type="checkbox"/></div>
-<div class="fl w-70">{{ item.title }}</div>
+<div class="fl w-10">
+  <input type="checkbox"
+  (click)="completeItem()"/>
+</div>
+<div class="fl w-70" [ngClass]="{'todo-complete': item.completed}">
+  {{ item.title }}
+</div>
 <button class="fl w-10 f6 link dim br2 white bg-gold" (click)="removeItem()">
   remove
 </button>

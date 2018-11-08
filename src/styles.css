@@ -19,3 +19,7 @@ body {
 ul {
   list-style: none;
 }
+
+.todo-complete {
+  text-decoration: line-through;
+}
